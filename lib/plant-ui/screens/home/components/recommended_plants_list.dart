@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:plantapp/constants.dart';
-import 'package:plantapp/screens/details/details_screen.dart';
+import 'package:plantapp/plant-ui/screens/details/details_screen.dart';
 
 class RecommendedPlantsList extends StatelessWidget {
   const RecommendedPlantsList({
