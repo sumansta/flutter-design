@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:plantapp/constants.dart';
-
 import 'featured_plants_card_list.dart';
 import 'recommended_plants_list.dart';
 import 'title_with_more_button.dart';
