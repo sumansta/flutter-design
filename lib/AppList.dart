@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:plantapp/constants.dart';
+import 'package:flutterdesigns/constants.dart';
+
+import 'plant-shop/main.dart';
+import 'plant-ui/screens/home/home_screen.dart';
 
 class AppList extends StatelessWidget {
+  static const String id = 'app_list';
   const AppList({Key key}) : super(key: key);
 
   @override
@@ -20,12 +24,12 @@ class AppList extends StatelessWidget {
             AppCard(
               appName: "Plant UI",
               appLogo: "assets/appLogos/plant-ui.svg",
-              routeName: 'plant-ui',
+              routeName: HomeScreen.id,
             ),
             AppCard(
               appName: "Plant Shop",
               appLogo: "assets/appLogos/plant-shop.svg",
-              routeName: 'plant-shop',
+              routeName: PlantShop.id,
             ),
             AppCard(
               appName: "Wallet",

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:plantapp/plant-ui/screens/details/components/body.dart';
+import 'package:flutterdesigns/plant-ui/screens/details/components/body.dart';
 
 class DetailsScreen extends StatelessWidget {
   const DetailsScreen({Key key}) : super(key: key);

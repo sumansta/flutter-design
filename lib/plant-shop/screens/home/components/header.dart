@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:plantapp/plant-shop/constants.dart';
+import 'package:flutterdesigns/plant-shop/constants.dart';
+import 'package:flutterdesigns/AppList.dart';
 
 class Header extends StatelessWidget {
   const Header({
@@ -36,7 +37,7 @@ class Header extends StatelessWidget {
               Icons.shopping_cart,
             ),
             onPressed: () {
-              Navigator.pushNamed(context, '/');
+              Navigator.pushNamed(context, AppList.id);
             },
           ),
         ],

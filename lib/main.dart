@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:plantapp/AppList.dart';
-import 'package:plantapp/constants.dart';
-import 'package:plantapp/plant-shop/main.dart';
-import 'package:plantapp/plant-ui/screens/home/home_screen.dart';
+import 'package:flutterdesigns/AppList.dart';
+import 'package:flutterdesigns/constants.dart';
+import 'package:flutterdesigns/plant-shop/main.dart';
+import 'package:flutterdesigns/plant-ui/screens/home/home_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -19,11 +19,11 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: kBackgroundColor,
         primaryColor: kPrimaryColor,
       ),
-      initialRoute: '/',
+      initialRoute: AppList.id,
       routes: {
-        '/': (context) => AppList(),
-        'plant-ui': (context) => HomeScreen(),
-        'plant-shop': (context) => PlantShop(),
+        AppList.id: (context) => AppList(),
+        HomeScreen.id: (context) => HomeScreen(),
+        PlantShop.id: (context) => PlantShop(),
       },
       onUnknownRoute: (RouteSettings setting) {
         return new MaterialPageRoute(
@@ -76,7 +76,7 @@ class PageNotFound extends StatelessWidget {
             ),
             color: Color(0xFF184C54),
             onPressed: () {
-              Navigator.pushNamed(context, '/');
+              Navigator.pushNamed(context, AppList.id);
             },
             child: Text(
               'Go Home'.toUpperCase(),

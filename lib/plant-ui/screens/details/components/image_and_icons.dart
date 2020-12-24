@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:plantapp/plant-ui/screens/details/components/icon_cards.dart';
+import 'package:flutterdesigns/plant-ui/screens/details/components/icon_cards.dart';
 
 import '../../../constants.dart';
 

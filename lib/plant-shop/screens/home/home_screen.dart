@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:plantapp/plant-shop/constants.dart';
-import 'package:plantapp/plant-shop/screens/home/components/header.dart';
-import 'package:plantapp/plant-shop/screens/home/components/plant_shop_cards.dart';
-import 'package:plantapp/plant-shop/screens/home/components/search_and_filter.dart';
+import 'package:flutterdesigns/plant-shop/constants.dart';
+import 'package:flutterdesigns/plant-shop/screens/home/components/header.dart';
+import 'package:flutterdesigns/plant-shop/screens/home/components/plant_shop_cards.dart';
+import 'package:flutterdesigns/plant-shop/screens/home/components/search_and_filter.dart';
 
 class PlantShopHome extends StatelessWidget {
   const PlantShopHome({Key key}) : super(key: key);

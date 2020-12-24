@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:plantapp/plant-shop/constants.dart';
+import 'package:flutterdesigns/plant-shop/constants.dart';
 
 class BottomNavBar extends StatelessWidget {
   const BottomNavBar({

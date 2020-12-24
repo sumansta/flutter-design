@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:plantapp/constants.dart';
+import 'package:flutterdesigns/constants.dart';
 
 class FeaturePlantCardList extends StatelessWidget {
   const FeaturePlantCardList({

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
-import 'package:plantapp/plant-shop/models/plant_model.dart';
+import 'package:flutterdesigns/plant-shop/models/plant_model.dart';
 
 class PlantShopCards extends StatelessWidget {
   const PlantShopCards({

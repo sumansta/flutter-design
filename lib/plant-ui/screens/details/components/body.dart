@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:plantapp/constants.dart';
-import 'package:plantapp/plant-ui/screens/details/components/image_and_icons.dart';
-import 'package:plantapp/plant-ui/screens/details/components/title_and_price.dart';
+import 'package:flutterdesigns/constants.dart';
+import 'package:flutterdesigns/plant-ui/screens/details/components/image_and_icons.dart';
+import 'package:flutterdesigns/plant-ui/screens/details/components/title_and_price.dart';
 
 import 'buy_now_section.dart';
 
